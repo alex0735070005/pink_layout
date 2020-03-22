@@ -26,6 +26,12 @@
   }
 }
 
+@media (max-width: 800px) {
+  .footer__menu-wrap {
+    margin-top: 15px;
+  }
+}
+
 @media (max-width: 740px) {
   .header__menu,
   .header__main {
@@ -71,6 +77,18 @@
   .article__block {
     padding: 0;
     margin-top: 15px;
+  }
+
+  .footer {
+    padding: 0;
+  }
+
+  .footer__menu-wrap {
+    margin-right: 20px;
+  }
+
+  .footer__social-link {
+    margin-right: 15px;
   }
 
   .article {
